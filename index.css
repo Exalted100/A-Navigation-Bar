@@ -2,25 +2,26 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
 }
 
-div {
+/*.nav-container {
     position: fixed;
     right: 2em;
     top: 2em;
     width: 3em;
+    z-index: 100;
+}*/
+
+.bar {
+    border-top: 2px solid black;
+    margin-top: 0.5em;
+    transition: 1s ease-in all;
 }
 
-#bar2{ width: 3rem; }
+#bar2{ display: none; }
 
-#bar1,
-#bar3 {
-    width: 2.4rem;
-    position: absolute;
-    left: .15rem;
-    transition: all .3s;
-}
+#bar1 { transform: translate(90); }
 
-#bar1 { top: -.8rem; }
-
-#bar3 { top: .8rem; }
+#bar3 { transform: translate(200); }
