@@ -6,22 +6,15 @@ body {
     min-height: 100vh;
 }
 
-/*.nav-container {
+.nav-container {
     position: fixed;
     right: 2em;
     top: 2em;
     width: 3em;
     z-index: 100;
-}*/
+}
 
 .bar {
     border-top: 2px solid black;
     margin-top: 0.5em;
-    transition: 1s ease-in all;
 }
-
-#bar2{ display: none; }
-
-#bar1 { transform: translate(90); }
-
-#bar3 { transform: translate(200); }
